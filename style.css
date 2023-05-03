@@ -240,19 +240,6 @@
     margin-top: 30px;
     color: rgb(255, 255, 255);
 }
-.contact input {
-    height: 30px;
-    margin-top: 12px;
-}
-.contact button{
-    display: block;
-    margin-top: 12px ;
-    background-color: #252527;
-    color: white;
-    width: 100px;
-    height: 30px;
-    box-shadow: 2px 2px 5px #414358;
-}
 .contact button:hover {
     background-color: #921212;
     transform: scale(1.1);
