@@ -77,7 +77,3 @@ let showLogIn = document.querySelector("#actions .user img");
 showLogIn.addEventListener("click", function(){
     document.querySelector("#logIn").style.right = "300px"
 })
-let header = document.querySelector('header');
-window.addEventListener('scroll', () => {
-    header.classList.toggle('shadow', window.scrollY > 0);
-});
