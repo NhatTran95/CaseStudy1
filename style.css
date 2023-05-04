@@ -255,12 +255,6 @@ header {
 .contact p {
     margin-top: 14px ;
 }
-#cart {
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 50px;
-}
 #cart h2 {
     margin-bottom: 20px;
 }
@@ -269,9 +263,11 @@ header {
 }
 #cart thead{
     font-size: 15px;
+    color:#302e70;
 }
 #cart thead tr th{
     border: 1px solid black;
+    height: 25px;
 }
 #cart thead tr th:first-child{
     text-align: left;
@@ -310,13 +306,15 @@ header {
 }
 #cart {
     position: fixed;
-    height: 90%;
+    height: 88%;
     width: 450px;
     right: -500px;
     top: 100px;
     background-color: #bac3d1;
     padding: 15px;
     overflow-y: scroll;
+    text-align: center;
+    border: 1px solid rgb(29, 16, 176);
 }
 #cart img {
     width: 30px;
